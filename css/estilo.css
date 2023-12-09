@@ -1,0 +1,40 @@
+.menu {
+  margin-bottom: 25px;
+  
+}
+
+.app {
+  margin-top: 100px;
+}
+
+.pagina {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px !important;
+  height: 500px;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+li.list-group-item.active {
+  background-color: #fff;
+  border-color: #009933;
+  border-left: solid 10px #009933;
+  font-weight: bold;
+}
+
+li a {
+  color: #212529;
+}
+
+li a:hover {
+  text-decoration: none;
+}
+
+h4 {
+  color: #009933 !important;
+}
+
+header {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
