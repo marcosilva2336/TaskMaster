@@ -13,15 +13,13 @@ require_once('obterUsername.php');
 
 ?>
 
-<html>
-
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>App Lista Tarefas</title>
 
 	<link rel="stylesheet" href="..\css\estilo.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-/rXcKAW8UmN5dSNOZZu6RvSiaAqd3EXyt2bEGi7fiq0jI2lnQ+Ay+5H/wIqE5KZJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -103,16 +101,16 @@ require_once('obterUsername.php');
                 $conexao = new Conexao();
                 $username = obterUsername($conexao, $_SESSION['username']);
                 echo '<div class="dropdown">';
-                echo '<a style="text-decoration: none; color: #222; font-weight: bold;" class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">';
+                echo '<a style="text-decoration: none; color: #222; font-weight: bold;" class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Bem-vindo, ';
                 echo $username;
                 echo '</a>';
                 echo '<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">';
                 echo '<a style="text-decoration: none; color: #222; font-weight: bold;" class="dropdown-item" href="#" onclick="logout()">Logout</a>';
                 echo '</div>';
                 echo '</div>';
-            } else {
-               
-                echo '<a href="login.php">Login</a>';
+			} else {
+				header("Location: 404.php");
+				
             }
             ?>
         </div>

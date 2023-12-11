@@ -17,7 +17,6 @@ function obterUsername($conexao, $username) {
             exit();
         }
     } else {
-        // Exibir mensagem de erro
         die('Erro na execução da consulta SQL: ' . print_r($stmt->errorInfo(), true));
     }
 }

@@ -43,6 +43,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 } else {
-    header("Location: 404.html");
+    header("Location: 404.php");
 }
 ?>
