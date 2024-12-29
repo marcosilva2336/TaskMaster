@@ -1,56 +1,53 @@
-# TaskMaster
+# TaskMaster 📋  
 
-O **TaskMaster** é um projeto PHP que utiliza Bootstrap, CSS, HTML, JS e PHP puro. O principal propósito é criar uma aplicação simples para gerenciamento de tarefas.
+O **TaskMaster** é um projeto desenvolvido em **PHP puro**, com foco no gerenciamento de tarefas. Ele utiliza tecnologias como **Bootstrap**, **CSS**, **HTML** e **JavaScript** para criar uma interface simples e funcional, além de **MySQL** para o armazenamento de dados.  
 
-## Recursos
+## 🚀 Funcionalidades  
 
-- **Bootstrap:** Utilizado para estilização e layout responsivo.
-- **CSS:** Estilos personalizados para aprimorar a aparência da aplicação.
-- **HTML:** Estrutura básica da interface do usuário.
-- **JavaScript:** Usado para interatividade e manipulação do DOM.
-- **PHP:** Linguagem server-side para manipulação de dados e interação com o banco de dados.
+- **Cadastramento de Usuários:**  
+  - Cadastro de novos usuários com validação para evitar duplicidades.  
 
-## Funcionalidades
-1. **Cadastramento de Usuários:**
-   - Novos usuários podem se cadastrar na aplicação.
-   - Validação para evitar duplicidade de usuários.
-     
-2. **Login e Logout:**
-   - Os usuários podem fazer login na aplicação para acessar funcionalidades exclusivas.
-   - Logout para encerrar a sessão.
+- **Login e Logout:**  
+  - Autenticação de usuários para acessar funcionalidades exclusivas.  
+  - Logout para encerrar a sessão.  
 
-3. **Lista de Tarefas:**
-   - Visualização de tarefas pendentes.
-   - Adição de novas tarefas.
-   - Edição e remoção de tarefas existentes.
+- **Lista de Tarefas:**  
+  - Visualização de tarefas pendentes.  
+  - Adição, edição e remoção de tarefas.  
 
-4. **Páginas:**
-   - **Home.php:** Página principal da aplicação.
-   - **NovaTarefa.php:** Adição de novas tarefas.
-   - **TodasTarefas.php:** Visualização de todas as tarefas, independentemente do status.
+- **Páginas Disponíveis:**  
+  - **Home.php:** Página principal da aplicação.  
+  - **NovaTarefa.php:** Adição de novas tarefas.  
+  - **TodasTarefas.php:** Visualização de todas as tarefas, independentemente do status.  
 
+## 🛠️ Tecnologias Utilizadas  
 
+- **Bootstrap:** Para estilização e design responsivo.  
+- **CSS:** Estilos personalizados para aprimorar a aparência.  
+- **HTML:** Estruturação da interface do usuário.  
+- **JavaScript:** Interatividade e manipulação do DOM.  
+- **PHP:** Manipulação de dados no lado do servidor.  
+- **MySQL:** Banco de dados para armazenar informações de usuários e tarefas.  
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto  
 
-- **CSS:** Pasta contendo arquivos de estilo personalizados.
-- **JS:** Pasta para scripts JavaScript.
-- **img:** Armazena imagens utilizadas na aplicação.
-- **includes:** Contém arquivos PHP inclusos em várias páginas, como conexão com o banco de dados.
-- **index.php:** Página inicial da aplicação.
+- **CSS:** Contém arquivos de estilo personalizados.  
+- **JS:** Scripts para funcionalidades interativas.  
+- **img:** Pasta para imagens utilizadas na aplicação.  
+- **includes:** Arquivos PHP compartilhados, como conexão com o banco de dados.  
+- **index.php:** Página inicial da aplicação.  
 
-## Banco de Dados
+## 🗄️ Banco de Dados  
 
-- **MySQL:** Utilizado como banco de dados para armazenar informações de usuários e tarefas.
+A aplicação utiliza **MySQL** para armazenar as informações. Certifique-se de importar o banco de dados fornecido ao configurar o projeto.  
 
-## Instruções de Uso
+## 📝 Instruções de Uso  
 
-1. Clone o repositório.
-2. Configure o servidor web para apontar para o diretório do projeto.
-3. Importe o banco de dados MySQL fornecido.
-4. Acesse a aplicação pelo navegador.
+1. Clone o repositório.  
+2. Configure o servidor web para apontar para o diretório do projeto.  
+3. Importe o banco de dados MySQL fornecido.  
+4. Acesse a aplicação pelo navegador.  
 
+## 📄 Licença  
 
-## Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
+Este projeto é licenciado sob a **MIT License**.  
